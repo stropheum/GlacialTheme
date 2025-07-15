@@ -2,7 +2,18 @@
   "name": "Glacial",
   "dark": true,
   "author": "Stropheum",
+  "colors": {
+    "cyan": "#00ffff",
+    "darkcyan": "#888888",
+    "icywhite": "#c5dada",
+    "darkgray": "#1d2123"
+  },
   "ui": {
-
+    "*": {
+      "background": "darkgray",
+      "foreground": "icywhite",
+      "Button.background": "darkcyan",
+      "Panel.background": "darkcyan"
+    }
   }
 }
