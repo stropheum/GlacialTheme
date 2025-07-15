@@ -11,5 +11,6 @@
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow factoryClass="com.github.stropheum.glacialtheme.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
         <postStartupActivity implementation="com.github.stropheum.glacialtheme.startup.MyProjectActivity" />
+        <themeProvider id="com.github.stropheum.glacialtheme" path="/theme/GlacialTheme.theme.json"/>
     </extensions>
 </idea-plugin>
